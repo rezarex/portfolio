@@ -1,5 +1,6 @@
 import React from 'react'
 import Typewriter from "typewriter-effect";
+import {Link} from 'react-router-dom'
 
 const Banner = () => {
   return (
@@ -23,6 +24,9 @@ const Banner = () => {
                                             />
   </h3>
                         </div>
+                    </div>
+                    <div className='header-btn'>
+                      <a href='' className='btn btn-outline' >Check Resume</a>
                     </div>
                 </div>
                 

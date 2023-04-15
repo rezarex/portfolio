@@ -56,7 +56,7 @@ const Header = () => {
 
       </div>
     </header> */}
-    <header className='header-bottom py-3'>
+    <header className='header-bottom sticky-top py-3'>
       <div className='container-xxl'>
         <div className='row'>
         <div className='col-14'>
