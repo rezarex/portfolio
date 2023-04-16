@@ -3,19 +3,17 @@ import Banner from '../components/Banner'
 import Posts from '../components/posts/Posts'
 import SidebarComponent from '../components/sidebarcomponent/SidebarComponent'
 import './home.css'
-import Write from '../components/write/Write'
+
+import Register from './register/Register'
 
 
 const Home = () => {
-  // return   <>
-  //   <Banner/>
-  //   <div className='home'>
-  //   <Posts/>
-  //   <SidebarComponent/>
-  //   </div>
-  //</>
-  return  <>
-    <Write/>
+  return   <>
+    <Banner/>
+    <div className='home'>
+    <Posts/>
+    <SidebarComponent/>
+    </div>
   </>
   
 }
