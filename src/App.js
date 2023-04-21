@@ -12,6 +12,8 @@ import Login from './pages/login/Login';
 import Settings from './pages/settings/Settings';
 import Write from './components/write/Write';
 import Single from './components/single/Single';
+import Posts from './components/posts/Posts';
+import Blog from './pages/blog/Blog';
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
             <Route path='settings' element={ <Settings/> } />
             <Route path='write' element={ <Write/> } />
             <Route path='post/:postId' element={ <Single/> } />
+            <Route path='blog' element={ <Blog/> } />
             <Route path='cv' element={ <CV/> } />
             <Route path='contact' element={ <Contact/> } />
           </Route>

@@ -5,15 +5,13 @@ import SidebarComponent from '../components/sidebarcomponent/SidebarComponent'
 import './home.css'
 
 import Register from './register/Register'
+import Portfolio from './portfolio/Portfolio'
 
 
 const Home = () => {
   return   <>
     <Banner/>
-    <div className='home'>
-    <Posts/>
-    <SidebarComponent/>
-    </div>
+    <Portfolio/>
   </>
   
 }

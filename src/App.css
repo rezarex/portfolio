@@ -64,13 +64,13 @@ a{
   height: 30px;
 }
 .header-bottom{
-  background-color: var(--color-secondary);
+  background-color: #fff;
 
 }
 .header-bottom .menu-links a,
 .header-bottom .dropdown button
 {
-  color: #ffff;
+  color: var(--color-primary);
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;

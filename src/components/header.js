@@ -2,13 +2,13 @@ import React from 'react'
 import {NavLink, Link} from 'react-router-dom'
 import {FcSearch} from 'react-icons/fc'
 
-const Header = () => {
+const Header = () => { 
   return <>
     <header className='header-top-strip py-1'>
       <div className='container-xxl'>
         <div className='row'>
         <div className='col-6'>
-          <p className='text-white mb-0'>Welcome to my blog and portfolio!</p>
+          <p className='text-white mb-0'>Email: <a href='mailto: marvin.wekesa@gmail.com'>marvin.wekesa@gmail.com</a> </p>
         </div>
         <div className='col-6'>
           <p className='text-end text-white mb-0'>Phone: <a className='text-white' href='tel: +254 720370015'>+254 720370015</a></p>
@@ -94,7 +94,7 @@ const Header = () => {
           <div className='menu-links'>
             <div className='d-flex align-items-center gap-15'>
               <NavLink to='/'>Home</NavLink>
-              <NavLink to='/portfolio'>Portfolio</NavLink>
+              <NavLink to='/blog'>Blog</NavLink>
               {/* <NavLink to='/cv'>Resume</NavLink> */}
               <NavLink to='/contact'>Contact Us</NavLink>
             </div>

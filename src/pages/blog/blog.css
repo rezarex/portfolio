@@ -1,0 +1,10 @@
+.blog{
+    display: flex;
+    justify-content: space-between;
+}
+.blog{
+    flex: 6;
+}
+.categories{
+    flex: 4;
+}
